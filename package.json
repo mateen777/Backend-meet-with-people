@@ -1,0 +1,25 @@
+{
+  "name": "backend-meet-with-people",
+  "version": "1.0.0",
+  "description": "video meeting application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "meet",
+    "meet-with-people"
+  ],
+  "author": "Mateen",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.11",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2",
+    "wrtc": "^0.4.7"
+  }
+}
